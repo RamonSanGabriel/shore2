@@ -1,0 +1,43 @@
+.logo {
+  height: 4em;
+  padding: 1em 0;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.appWrapper {
+  /* display: flex; */
+  /* margin: 0 auto; */
+}
+
+/* Navbar */
+.header {
+  /* display: flex; */
+}
+.nav {
+  /* position: sticky; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  /* border-bottom: 1px solid black; */
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  /* width: 100%; */
+}
+.navList {
+  display: flex;
+  gap: 10px;
+}
+.navLink {
+  text-decoration: none;
+  color: var(--PRIMARY-COLOR);
+}
+.title {
+  margin: 1rem 0;
+}
