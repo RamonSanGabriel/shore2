@@ -11,9 +11,14 @@
   /* --PRIMARY-COLOR: #1d242f; */
   --PRIMARY-COLOR: #242424;
 
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 0.75rem;
+
+  @media (width > 767px) {
+    font-size: 1rem;
+  }
 
   /* color-scheme: light dark; */
   /* color: #dfdede; */
@@ -28,7 +33,7 @@
 }
 
 a,
-NavLink {
+.navLink {
   font-weight: 500;
   color: var(--PRIMARY-COLOR);
   text-decoration: inherit;
@@ -44,6 +49,7 @@ body {
   text-align: center;
   min-width: 320px;
   min-height: 100vh;
+  margin: 0 auto;
   color: var(--PRIMARY-COLOR);
 }
 
