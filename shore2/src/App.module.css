@@ -7,30 +7,30 @@
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.react:hover {
+/* .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
+} */
 
-.appWrapper {
-  /* display: flex; */
-  /* margin: 0 auto; */
-}
+/* .appWrapper {
+  display: flex;
+  margin: 0 auto;
+} */
 
 /* Navbar */
-.header {
-  /* display: flex; */
-}
+/* .header {
+  display: flex;
+} */
 .nav {
-  position: fixed;
+  position: sticky;
   top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem;
-  /* background-color: #e2e2e2; */
   background-color: dodgerblue;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
+  z-index: 100;
 }
 .navList {
   display: flex;
@@ -41,5 +41,9 @@
   color: var(--PRIMARY-COLOR);
 }
 .title {
-  margin: 5rem 0 1rem;
+  margin: 1rem 0;
+}
+.content {
+  padding: 0 2rem;
+  text-align: justify;
 }

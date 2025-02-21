@@ -24,8 +24,8 @@ function App() {
             })}
           </ul>
         </nav>
-        <h1 className={css.title}>Shore 2 Residences by Trevi Home</h1>
-        <p>
+        <h1 className={css.title}>Shore 2 Residences by KTSG</h1>
+        <p className={css.content}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
           explicabo reprehenderit quo aut, a aperiam cum aliquid. Reprehenderit,
           fugit suscipit pariatur corporis consectetur aliquam voluptatum et
@@ -83,7 +83,24 @@ function App() {
           excepturi corrupti. Voluptatibus, eos laboriosam praesentium quis,
           unde illum soluta quidem aperiam iusto sunt magnam saepe asperiores
           nesciunt pariatur, cumque quia! Temporibus fuga delectus dignissimos
-          quo dolore, magnam corrupti esse animi.
+          quo dolore, magnam corrupti esse animi. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Placeat expedita blanditiis neque illum
+          deserunt velit, ullam quos ut sapiente quae quibusdam repellat commodi
+          in error, tempora voluptatem incidunt quas aperiam. natus corrupti
+          animi minus assumenda, dolor aliquam! Quisquam modi culpa molestiae
+          accusantium omnis temporibus ducimus cumque ut. Quos voluptates
+          accusamus nisi laboriosam, laudantium tenetur! Deleniti obcaecati
+          possimus, esse quidem cupiditate earum nihil amet officiis sunt minus
+          porro, alias excepturi quibusdam perferendis exercitationem! Quo nemo
+          hic officia quia obcaecati, totam, eum tempora tenetur eos earum
+          architecto ipsum cupiditate deleniti excepturi corrupti. Voluptatibus,
+          eos laboriosam praesentium quis, unde illum soluta quidem aperiam
+          iusto sunt magnam saepe asperiores nesciunt pariatur, cumque quia!
+          Temporibus fuga delectus dignissimos quo dolore, magnam corrupti esse
+          animi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Placeat expedita blanditiis neque illum deserunt velit, ullam quos ut
+          sapiente quae quibusdam repellat commodi in error, tempora voluptatem
+          incidunt quas aperiam.
         </p>
       </header>
     </div>
