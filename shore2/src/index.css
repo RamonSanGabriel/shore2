@@ -14,7 +14,7 @@
   font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 1rem;
 
   @media (width > 767px) {
     font-size: 1rem;
