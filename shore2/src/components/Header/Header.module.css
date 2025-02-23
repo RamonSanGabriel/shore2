@@ -1,9 +1,11 @@
 .logo {
   height: 3em;
-  padding: 0.75rem;
+  padding: 0.5rem;
   background-color: aliceblue;
   margin: 0.5rem 0;
   border-radius: 8px;
+  align-items: center;
+  display: flex;
 }
 
 .nav {
@@ -14,11 +16,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 1rem;
   background-color: dodgerblue;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
   z-index: 100;
+
+  @media (width > 767px) {
+    padding: 0 2rem;
+  }
 }
 
 .navList {
@@ -38,16 +44,22 @@
   }
 }
 
-.navListItems {
-  /* content: '';
-  border-bottom: #fff;
+.navListName {
+  display: inline-block;
+  position: relative;
+}
+.navListName::after {
+  content: '';
+  position: absolute;
   width: 100%;
+  transform: scaleX(0);
   height: 3px;
-  bottom: 0; */
-  transition: all 250ms linear;
-  border-color: #fff;
-
-  &:hover {
-    opacity: 1;
-  }
+  bottom: -10px;
+  left: 0;
+  transition: all 250ms ease-out;
+  background-color: #0087ca;
+  border-radius: 8px;
+}
+.navListName:hover::after {
+  transform: scaleX(1);
 }

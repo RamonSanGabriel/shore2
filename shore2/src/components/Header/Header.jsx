@@ -18,7 +18,7 @@ const Header = () => {
               return (
                 <li className={css.navListItems} key={id}>
                   <NavLink className={css.navLink} to={path}>
-                    {name}
+                    <p className={css.navListName}>{name}</p>
                   </NavLink>
                 </li>
               );
