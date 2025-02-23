@@ -6,7 +6,8 @@ const Main = () => {
   return (
     <>
       <main className={css.main}>
-        <h1 className={css.title}>Unit 1403 Tower 1 by KTSG</h1>
+        <h1 className={css.title}>Unit 1403 Tower 1 </h1>
+        <span>Property Owner: KTSG</span>
         <Section1 />
         <Section2 />
       </main>
