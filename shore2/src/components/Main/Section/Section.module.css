@@ -4,6 +4,10 @@
   background-color: #fff;
   border-radius: 0.5rem;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+  @media (width > 767px) {
+    padding: 2.5rem;
+  }
 }
 .title {
   font-size: 1.15rem;
