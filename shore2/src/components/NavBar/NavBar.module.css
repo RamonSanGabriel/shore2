@@ -16,8 +16,10 @@
   text-decoration: none;
   color: #fff;
 
-  &:hover {
-    color: var(--PRIMARY-COLOR);
+  &:hover,
+  &:focus {
+    /* color: var(--PRIMARY-COLOR); */
+    color: #fff;
   }
 }
 .logo {
@@ -53,6 +55,7 @@
   left: 0;
   transition: all 250ms ease-out;
   background-color: #0087ca;
+  /* background-color: var(--PRIMARY-COLOR); */
   border-radius: 8px;
 }
 .navListName:hover::after {

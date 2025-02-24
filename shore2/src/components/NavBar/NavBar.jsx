@@ -15,7 +15,12 @@ const NavBar = () => {
           {navLinks.map(({ id, name, path }) => {
             return (
               <li className={css.navListItems} key={id}>
-                <NavLink className={css.navLink} to={path}>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? css.navLink : css.navListName
+                  }
+                  to={path}
+                >
                   <p className={css.navListName}>{name}</p>
                 </NavLink>
               </li>
