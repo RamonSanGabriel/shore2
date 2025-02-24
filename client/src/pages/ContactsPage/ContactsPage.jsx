@@ -1,13 +1,13 @@
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-const GalleryPage = () => {
+const ContactsPage = () => {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>Gallery</title>
+        <title>Contacts</title>
       </Helmet>
     </HelmetProvider>
   );
 };
 
-export default GalleryPage;
+export default ContactsPage;
