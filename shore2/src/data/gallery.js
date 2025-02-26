@@ -15,16 +15,19 @@ export const gallery = [
     id: 1,
     title: 'Image 1',
     image: gallery1,
+    description: 'Image description',
   },
   {
     id: 2,
     title: 'Image 2',
     image: gallery2,
+    description: 'Image description',
   },
   {
     id: 3,
     title: 'Image 3',
     image: gallery3,
+    description: 'Image description',
   },
   {
     id: 4,

@@ -5,14 +5,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   padding: 1rem;
   /* margin: 1rem 0; */
 }
 .galleryListContainer {
   /* display: flex; */
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
 
   width: 100%;
   border-radius: 8px;
@@ -21,7 +21,8 @@
 .galleryItems {
   & h3 {
     padding: 0.75rem 0;
-    background-color: #e5e5e5;
+    background-color: #caf0f8;
+    /* background-color: rgba(146, 194, 242, 0.669); */
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
   }
@@ -33,5 +34,8 @@
     @media (width > 767px) {
       width: 100%;
     }
+  }
+  & p {
+    padding: 0.75rem 0;
   }
 }
