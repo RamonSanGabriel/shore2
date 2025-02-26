@@ -1,0 +1,69 @@
+import gallery1 from '../images/gallery/img1.jpg';
+import gallery2 from '../images/gallery/img2.jpg';
+import gallery3 from '../images/gallery/img3.jpg';
+import gallery4 from '../images/gallery/img4.jpg';
+import gallery5 from '../images/gallery/img5.jpg';
+import gallery6 from '../images/gallery/img6.jpg';
+import gallery7 from '../images/gallery/img7.jpg';
+import gallery8 from '../images/gallery/img8.jpg';
+import gallery9 from '../images/gallery/img9.jpg';
+import gallery10 from '../images/gallery/img10.jpg';
+import gallery11 from '../images/gallery/img11.jpg';
+
+export const gallery = [
+  {
+    id: 1,
+    title: 'Image 1',
+    image: gallery1,
+  },
+  {
+    id: 2,
+    title: 'Image 2',
+    image: gallery2,
+  },
+  {
+    id: 3,
+    title: 'Image 3',
+    image: gallery3,
+  },
+  {
+    id: 4,
+    title: 'Image 4',
+    image: gallery4,
+  },
+  {
+    id: 5,
+    title: 'Image 5',
+    image: gallery5,
+  },
+  {
+    id: 6,
+    title: 'Image 6',
+    image: gallery6,
+  },
+  {
+    id: 7,
+    title: 'Image 7',
+    image: gallery7,
+  },
+  {
+    id: 8,
+    title: 'Image 8',
+    image: gallery8,
+  },
+  {
+    id: 9,
+    title: 'Image 9',
+    image: gallery9,
+  },
+  {
+    id: 10,
+    title: 'Image 10',
+    image: gallery10,
+  },
+  {
+    id: 11,
+    title: 'Image 11',
+    image: gallery11,
+  },
+];
